@@ -19,8 +19,8 @@ const HERO_HIGHLIGHTS = [
 
 export function HeroSection() {
   return (
-    // Background fades from Onyx Black (top-left) to Electric Indigo (bottom-right)
-    <section className="relative overflow-hidden bg-linear-to-br from-brand-black to-brand-indigo text-white">
+    // Same Sky Blue as the navbar
+    <section className="relative overflow-hidden bg-brand-blue text-white">
       {/* Soft decorative circles in the background */}
       <div
         aria-hidden
@@ -35,8 +35,8 @@ export function HeroSection() {
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-4 py-20 sm:px-6 lg:grid-cols-5 lg:py-28">
         {/* Left side: text and buttons */}
         <div className="lg:col-span-3">
-          <p className="inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1 text-xs font-semibold tracking-wider uppercase">
-            <span className="size-2 rounded-full bg-brand-mint" />
+          <p className="inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1 text-xs font-bold tracking-wider uppercase">
+            <span className="size-2 rounded-full bg-brand-red" />
             Welcome to Infinity Fitness
           </p>
 
@@ -45,14 +45,17 @@ export function HeroSection() {
             <span className="block">Manage Fitness Smarter.</span>
           </h1>
 
-          <p className="mt-6 max-w-xl text-lg">
+          <p className="mt-6 max-w-xl text-lg font-medium">
             Infinity Fitness is a gym management system that brings Admins,
             Trainers and Members together, with memberships, workouts,
             attendance and progress in one place.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Button asChild className="h-12 px-6 text-base font-semibold">
+            <Button
+              asChild
+              className="h-12 px-6 text-base font-semibold hover:bg-brand-red-dark"
+            >
               <Link href="/login">
                 <LogIn className="size-5" />
                 Member Login
@@ -61,7 +64,7 @@ export function HeroSection() {
             <Button
               asChild
               variant="outline"
-              className="h-12 border-brand-mint bg-transparent px-6 text-base font-semibold text-white hover:bg-brand-mint hover:text-brand-black"
+              className="h-12 border-white bg-transparent px-6 text-base font-semibold text-white hover:bg-white hover:text-brand-blue"
             >
               <a href="#contact">
                 Contact Us
@@ -73,14 +76,14 @@ export function HeroSection() {
 
         {/* Right side: decorative card built with icons (no external images) */}
         <div aria-hidden className="mx-auto w-full max-w-md lg:col-span-2">
-          <div className="rounded-3xl border border-white/20 bg-white/10 p-6 shadow-2xl backdrop-blur-sm sm:p-8">
+          <div className="rounded-3xl border border-white/30 bg-white/15 p-6 shadow-2xl sm:p-8">
             <div className="flex items-center gap-4">
-              <div className="flex size-16 items-center justify-center rounded-2xl bg-brand-mint text-brand-black shadow-lg">
+              <div className="flex size-16 items-center justify-center rounded-2xl bg-brand-red shadow-lg">
                 <Dumbbell className="size-8" />
               </div>
               <div>
                 <p className="text-xl font-bold">Infinity Fitness</p>
-                <p className="font-medium">Gym Management System</p>
+                <p className="font-semibold">Gym Management System</p>
               </div>
             </div>
 
@@ -88,9 +91,9 @@ export function HeroSection() {
               {HERO_HIGHLIGHTS.map((item) => (
                 <div
                   key={item.label}
-                  className="rounded-2xl bg-brand-black/70 p-4 text-white shadow-md ring-1 ring-white/10"
+                  className="rounded-2xl bg-brand-white p-4 text-slate-900 shadow-md"
                 >
-                  <item.icon className="size-6 text-brand-mint" />
+                  <item.icon className="size-6 text-brand-red" />
                   <p className="mt-3 text-sm font-semibold">{item.label}</p>
                 </div>
               ))}

@@ -10,7 +10,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Logo } from "@/components/home/logo";
+import { Logo } from "@/components/logo";
 
 // Links to sections on the same page. Each href matches the id of a <section>.
 const NAV_LINKS = [
@@ -21,7 +21,7 @@ const NAV_LINKS = [
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-40 border-b border-white/10 bg-brand-black/90 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-white/20 bg-brand-blue">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <Logo />
 
@@ -31,12 +31,12 @@ export function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-white/80 transition-colors hover:text-brand-mint"
+              className="text-sm font-semibold text-white underline-offset-8 hover:underline"
             >
               {link.label}
             </a>
           ))}
-          <Button asChild className="h-10 px-5 font-semibold">
+          <Button asChild className="h-10 px-5 font-semibold hover:bg-brand-red-dark">
             <Link href="/login">Login</Link>
           </Button>
         </nav>
@@ -47,16 +47,16 @@ export function Navbar() {
             <Button
               variant="ghost"
               size="icon-lg"
-              className="text-white md:hidden"
+              className="text-white hover:bg-white/15 hover:text-white md:hidden"
               aria-label="Open menu"
             >
               <Menu className="size-6" />
             </Button>
           </SheetTrigger>
 
-          <SheetContent side="right" className="border-white/10 bg-brand-black">
+          <SheetContent side="right" className="bg-brand-white">
             <SheetHeader>
-              <SheetTitle className="text-lg font-bold">Menu</SheetTitle>
+              <SheetTitle className="text-lg font-bold text-slate-900">Menu</SheetTitle>
               <SheetDescription className="sr-only">
                 Go to a section of the homepage or log in.
               </SheetDescription>
@@ -68,13 +68,16 @@ export function Navbar() {
                 <SheetClose asChild key={link.href}>
                   <a
                     href={link.href}
-                    className="border-b border-white/10 py-3 text-base font-medium text-white/90 hover:text-brand-mint"
+                    className="border-b border-slate-200 py-3 text-base font-medium text-slate-800 hover:text-brand-red"
                   >
                     {link.label}
                   </a>
                 </SheetClose>
               ))}
-              <Button asChild className="mt-6 h-11 text-base font-semibold">
+              <Button
+                asChild
+                className="mt-6 h-11 text-base font-semibold hover:bg-brand-red-dark"
+              >
                 <Link href="/login">Login</Link>
               </Button>
             </nav>

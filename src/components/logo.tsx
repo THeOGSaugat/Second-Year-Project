@@ -5,11 +5,11 @@ import { InfinityIcon } from "lucide-react";
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2">
-      <span className="flex size-9 items-center justify-center rounded-lg bg-brand-mint text-brand-black">
+      <span className="flex size-9 items-center justify-center rounded-lg bg-brand-red text-white">
         <InfinityIcon className="size-5" />
       </span>
       <span className="text-lg font-extrabold tracking-tight text-white">
-        INFINITY <span className="text-brand-mint">FITNESS</span>
+        INFINITY FITNESS
       </span>
     </Link>
   );

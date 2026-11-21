@@ -62,10 +62,9 @@ const FEATURES = [
 
 export function FeaturesSection() {
   return (
-    // Electric Indigo at the top, fading into Onyx Black at the bottom
     <section
       id="features"
-      className="scroll-mt-16 bg-linear-to-b from-brand-indigo to-brand-black py-20 lg:py-24"
+      className="scroll-mt-16 border-t border-white/20 bg-brand-blue py-20 lg:py-24"
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
@@ -76,13 +75,13 @@ export function FeaturesSection() {
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {FEATURES.map((feature) => (
-            <Card key={feature.title} className="bg-brand-black/80 py-6 shadow-lg">
+            <Card key={feature.title} className="bg-brand-white py-6 shadow-lg">
               <CardHeader className="px-6">
-                <div className="mb-4 flex size-12 items-center justify-center rounded-xl bg-brand-mint text-brand-black">
+                <div className="mb-4 flex size-12 items-center justify-center rounded-xl bg-brand-red text-white">
                   <feature.icon className="size-6" />
                 </div>
                 <CardTitle className="text-lg font-bold">{feature.title}</CardTitle>
-                <CardDescription className="text-white/70">
+                <CardDescription className="text-slate-600">
                   {feature.description}
                 </CardDescription>
               </CardHeader>

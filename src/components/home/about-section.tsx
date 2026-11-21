@@ -32,7 +32,10 @@ const ROLES = [
 export function AboutSection() {
   return (
     // scroll-mt-16 stops the sticky navbar from covering the heading after clicking "About"
-    <section id="about" className="scroll-mt-16 bg-brand-black py-20 lg:py-24">
+    <section
+      id="about"
+      className="scroll-mt-16 border-t border-white/20 bg-brand-blue py-20 lg:py-24"
+    >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           label="About Us"
@@ -44,14 +47,14 @@ export function AboutSection() {
           {ROLES.map((role) => (
             <Card
               key={role.title}
-              className="border-t-4 border-brand-indigo bg-white/5 py-6 shadow-sm"
+              className="border-t-4 border-brand-red bg-brand-white py-6 shadow-lg"
             >
               <CardHeader className="px-6">
-                <div className="mb-4 flex size-12 items-center justify-center rounded-xl bg-brand-mint text-brand-black">
+                <div className="mb-4 flex size-12 items-center justify-center rounded-xl bg-brand-red text-white">
                   <role.icon className="size-6" />
                 </div>
                 <CardTitle className="text-xl font-bold">{role.title}</CardTitle>
-                <CardDescription className="text-base text-white/70">
+                <CardDescription className="text-base text-slate-600">
                   {role.description}
                 </CardDescription>
               </CardHeader>

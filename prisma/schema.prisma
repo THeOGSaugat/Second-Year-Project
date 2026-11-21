@@ -1,0 +1,37 @@
+// Prisma schema for Infinity Fitness.
+// Week 3 implements ONLY the authentication table (User).
+// The other tables in docs/erd will be added in later weeks.
+
+generator client {
+  provider            = "prisma-client"
+  output              = "../src/generated/prisma" // generated code – do not edit, not committed to git
+  importFileExtension = "ts" // lets Node.js run prisma/seed.ts directly, without extra tools
+}
+
+datasource db {
+  provider = "postgresql" // Neon PostgreSQL (connection URL is set in prisma.config.ts)
+}
+
+// The three roles in the system
+enum Role {
+  ADMIN
+  TRAINER
+  MEMBER
+}
+
+// INACTIVE users cannot log in
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+}
+
+model User {
+  id           String     @id @default(cuid())
+  name         String
+  email        String     @unique
+  passwordHash String // bcrypt hash – the real password is never stored
+  role         Role // no default: a role must always be chosen when an account is created
+  status       UserStatus @default(ACTIVE)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
