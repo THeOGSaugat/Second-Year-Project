@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="690" viewBox="0 0 1280 690">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect x="0" y="0" width="1280" height="48" rx="0" fill="#e8e8e8" stroke="none" stroke-width="1.5"/>
+  <text x="24" y="30" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">WIREFRAME 07 · Member Dashboard (/member)</text>
+  <text x="1256" y="30" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#6b6b6b">Only users with role MEMBER can open this page</text>
+  <rect x="0" y="48" width="1280" height="36" rx="0" fill="#e8e8e8" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="18" cy="66" r="5" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <circle cx="34" cy="66" r="5" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <circle cx="50" cy="66" r="5" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <rect x="80" y="55" width="1180" height="22" rx="11" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <text x="96" y="71" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#6b6b6b">http://localhost:3000/member</text>
+  <rect x="0" y="84" width="1280" height="606" rx="0" fill="#f3f3f3" stroke="#cfcfcf" stroke-width="1.5"/>
+  <rect x="0" y="84" width="1280" height="64" rx="0" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <rect x="40" y="102" width="30" height="30" rx="6" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="55" y="122" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2b2b2b">∞</text>
+  <text x="80" y="123" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">INFINITY FITNESS</text>
+  <text x="300" y="122" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="start" fill="#2b2b2b">Dashboard</text>
+  <line x1="300" y1="132" x2="372" y2="132" stroke="#2b2b2b" stroke-width="2"/>
+  <text x="980" y="122" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="end" fill="#2b2b2b">[Member Name]</text>
+  <rect x="994" y="105" width="68" height="22" rx="11" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1"/>
+  <text x="1028.0" y="120" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2b2b2b">MEMBER</text>
+  <rect x="1130" y="98" width="110" height="36" rx="6" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="1185.0" y="121.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2b2b2b">Logout</text>
+  <circle cx="1260" cy="116" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="1260" y="121" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+  <text x="40" y="208" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" text-anchor="start" fill="#2b2b2b">Member Dashboard</text>
+  <text x="40" y="238" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b">Signed in successfully.</text>
+  <rect x="40" y="268" width="1200" height="120" rx="12" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="96" cy="328" r="24" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="96" y="332" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="140" y="320" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="start" fill="#2b2b2b">Welcome, [Member Name]</text>
+  <text x="140" y="348" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b">You are signed in as Member.</text>
+  <circle cx="1220" cy="288" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="1220" y="293" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+  <rect x="40" y="418" width="560" height="200" rx="12" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="68" y="460" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="start" fill="#2b2b2b">Your Account</text>
+  <text x="68" y="504" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#6b6b6b">Name</text>
+  <text x="180" y="504" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#2b2b2b">[Member Name]</text>
+  <text x="68" y="540" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#6b6b6b">Email</text>
+  <text x="180" y="540" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#2b2b2b">[email address]</text>
+  <text x="68" y="576" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#6b6b6b">Role</text>
+  <text x="180" y="576" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#2b2b2b">MEMBER</text>
+  <circle cx="620" cy="438" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="620" y="443" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+</svg>

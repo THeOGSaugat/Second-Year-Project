@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="2224" viewBox="0 0 1280 2224">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect x="0" y="0" width="1280" height="48" rx="0" fill="#e8e8e8" stroke="none" stroke-width="1.5"/>
+  <text x="24" y="30" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">WIREFRAME 01 · Homepage — Desktop (1280 px)</text>
+  <text x="1256" y="30" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#6b6b6b">Infinity Fitness · Week 3 · Reference for Balsamiq</text>
+  <rect x="0" y="48" width="1280" height="36" rx="0" fill="#e8e8e8" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="18" cy="66" r="5" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <circle cx="34" cy="66" r="5" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <circle cx="50" cy="66" r="5" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <rect x="80" y="55" width="1180" height="22" rx="11" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <text x="96" y="71" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#6b6b6b">http://localhost:3000/</text>
+  <rect x="0" y="84" width="1280" height="72" rx="0" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <rect x="80" y="106" width="30" height="30" rx="6" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="95" y="126" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2b2b2b">∞</text>
+  <text x="120" y="127" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">INFINITY FITNESS</text>
+  <text x="840" y="125" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#2b2b2b">About</text>
+  <text x="920" y="125" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#2b2b2b">Features</text>
+  <text x="1015" y="125" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#2b2b2b">Contact</text>
+  <rect x="1100" y="100" width="110" height="40" rx="6" fill="#2b2b2b" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="1155.0" y="125.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Login</text>
+  <circle cx="1248" cy="120" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="1248" y="125" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+  <rect x="0" y="156" width="1280" height="520" rx="0" fill="#f3f3f3" stroke="#cfcfcf" stroke-width="1.5"/>
+  <text x="80" y="266" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#6b6b6b">WELCOME TO INFINITY FITNESS</text>
+  <text x="80" y="326" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="bold" text-anchor="start" fill="#2b2b2b">Train Without Limits.</text>
+  <text x="80" y="382" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="bold" text-anchor="start" fill="#2b2b2b">Manage Fitness Smarter.</text>
+  <rect x="80" y="418" width="500" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="80" y="434" width="500" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="80" y="450" width="300.0" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="80" y="496" width="170" height="48" rx="6" fill="#2b2b2b" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="165.0" y="525.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Member Login</text>
+  <rect x="266" y="496" width="150" height="48" rx="6" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="341.0" y="525.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2b2b2b">Contact Us</text>
+  <rect x="700" y="211" width="500" height="410" rx="0" fill="#f3f3f3" stroke="#2b2b2b" stroke-width="1.5"/>
+  <line x1="700" y1="211" x2="1200" y2="621" stroke="#cfcfcf" stroke-width="1.5"/>
+  <line x1="1200" y1="211" x2="700" y2="621" stroke="#cfcfcf" stroke-width="1.5"/>
+  <rect x="800.0" y="400.0" width="300" height="32" rx="4" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <text x="950.0" y="421.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#6b6b6b">Hero visual (gradient + icon)</text>
+  <circle cx="1248" cy="182" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="1248" y="187" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+  <rect x="0" y="676" width="1280" height="440" rx="0" fill="#ffffff" stroke="#cfcfcf" stroke-width="1.5"/>
+  <text x="640.0" y="744" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#2b2b2b">About Infinity Fitness</text>
+  <rect x="320.0" y="768" width="640" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="320.0" y="784" width="480.0" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="80" y="826" width="340" height="220" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="124" cy="870" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="124" y="874" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="104" y="936" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="start" fill="#2b2b2b">Admin</text>
+  <text x="104" y="966" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b">Manages accounts, plans</text>
+  <text x="104" y="986" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b">and payments</text>
+  <rect x="470" y="826" width="340" height="220" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="514" cy="870" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="514" y="874" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="494" y="936" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="start" fill="#2b2b2b">Trainer</text>
+  <text x="494" y="966" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b">Creates workout plans and</text>
+  <text x="494" y="986" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b">tracks member progress</text>
+  <rect x="860" y="826" width="340" height="220" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="904" cy="870" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="904" y="874" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="884" y="936" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="start" fill="#2b2b2b">Member</text>
+  <text x="884" y="966" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b">Views workouts, attendance</text>
+  <text x="884" y="986" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b">and progress</text>
+  <circle cx="1248" cy="702" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="1248" y="707" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+  <rect x="0" y="1116" width="1280" height="520" rx="0" fill="#f3f3f3" stroke="#cfcfcf" stroke-width="1.5"/>
+  <text x="640.0" y="1184" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#2b2b2b">Features Overview</text>
+  <rect x="360.0" y="1208" width="560" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="80" y="1256" width="262" height="150" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="120" cy="1296" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="120" y="1300" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="100" y="1348" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">Membership Plans</text>
+  <rect x="100" y="1364" width="220" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="100" y="1378" width="132.0" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="366" y="1256" width="262" height="150" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="406" cy="1296" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="406" y="1300" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="386" y="1348" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">Payment Records</text>
+  <rect x="386" y="1364" width="220" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="386" y="1378" width="132.0" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="652" y="1256" width="262" height="150" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="692" cy="1296" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="692" y="1300" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="672" y="1348" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">Trainer Assignment</text>
+  <rect x="672" y="1364" width="220" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="672" y="1378" width="132.0" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="938" y="1256" width="262" height="150" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="978" cy="1296" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="978" y="1300" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="958" y="1348" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">Attendance Tracking</text>
+  <rect x="958" y="1364" width="220" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="958" y="1378" width="132.0" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="80" y="1430" width="262" height="150" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="120" cy="1470" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="120" y="1474" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="100" y="1522" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">Workout Plans</text>
+  <rect x="100" y="1538" width="220" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="100" y="1552" width="132.0" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="366" y="1430" width="262" height="150" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="406" cy="1470" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="406" y="1474" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="386" y="1522" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">Progress Tracking</text>
+  <rect x="386" y="1538" width="220" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="386" y="1552" width="132.0" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="652" y="1430" width="262" height="150" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="692" cy="1470" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="692" y="1474" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="672" y="1522" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">Notifications</text>
+  <rect x="672" y="1538" width="220" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="672" y="1552" width="132.0" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="938" y="1430" width="262" height="150" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="978" cy="1470" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="978" y="1474" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="958" y="1522" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">Secure Role-Based Login</text>
+  <rect x="958" y="1538" width="220" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <rect x="958" y="1552" width="132.0" height="8" rx="4" fill="#cfcfcf" stroke="none" stroke-width="1.5"/>
+  <circle cx="1248" cy="1142" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="1248" y="1147" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">4</text>
+  <rect x="0" y="1636" width="1280" height="400" rx="0" fill="#ffffff" stroke="#cfcfcf" stroke-width="1.5"/>
+  <text x="640.0" y="1704" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#2b2b2b">Contact Us</text>
+  <text x="640.0" y="1736" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#6b6b6b">Visit the gym reception to become a member.</text>
+  <rect x="80" y="1776" width="262" height="120" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="120" cy="1816" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="120" y="1820" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="150" y="1821" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="start" fill="#2b2b2b">Address</text>
+  <text x="100" y="1871" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b" font-style="italic">[Gym Address]</text>
+  <rect x="366" y="1776" width="262" height="120" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="406" cy="1816" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="406" y="1820" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="436" y="1821" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="start" fill="#2b2b2b">Phone</text>
+  <text x="386" y="1871" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b" font-style="italic">[Phone Number]</text>
+  <rect x="652" y="1776" width="262" height="120" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="692" cy="1816" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="692" y="1820" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="722" y="1821" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="start" fill="#2b2b2b">Email</text>
+  <text x="672" y="1871" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b" font-style="italic">[Email Address]</text>
+  <rect x="938" y="1776" width="262" height="120" rx="10" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="978" cy="1816" r="18" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="978" y="1820" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#6b6b6b">icon</text>
+  <text x="1008" y="1821" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="start" fill="#2b2b2b">Opening Hours</text>
+  <text x="958" y="1871" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#6b6b6b" font-style="italic">[Opening Hours]</text>
+  <text x="640.0" y="1946" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#6b6b6b">Accounts are created by the gym Admin — there is no online sign-up.</text>
+  <rect x="555.0" y="1966" width="170" height="44" rx="6" fill="#2b2b2b" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="640.0" y="1993.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Member Login</text>
+  <circle cx="1248" cy="1662" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="1248" y="1667" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
+  <rect x="0" y="2036" width="1280" height="180" rx="0" fill="#2b2b2b" stroke="#2b2b2b" stroke-width="1.5"/>
+  <rect x="80" y="2070" width="30" height="30" rx="6" fill="#6b6b6b" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="95" y="2090" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">∞</text>
+  <text x="120" y="2091" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#ffffff">INFINITY FITNESS</text>
+  <text x="80" y="2122" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#cfcfcf">Gym management system for Admins, Trainers and Members.</text>
+  <text x="900" y="2076" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="start" fill="#ffffff">Quick Links</text>
+  <text x="900" y="2106" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#cfcfcf">About</text>
+  <text x="1020" y="2106" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#cfcfcf">Features</text>
+  <text x="900" y="2132" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#cfcfcf">Contact</text>
+  <text x="1020" y="2132" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#cfcfcf">Login</text>
+  <line x1="80" y1="2164" x2="1200" y2="2164" stroke="#6b6b6b" stroke-width="1"/>
+  <text x="640.0" y="2194" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#cfcfcf">© 2026 Infinity Fitness. All rights reserved.</text>
+  <circle cx="1248" cy="2062" r="13" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="1248" y="2067" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#2b2b2b">6</text>
+</svg>

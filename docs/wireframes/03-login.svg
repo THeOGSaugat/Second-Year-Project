@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect x="0" y="0" width="1280" height="48" rx="0" fill="#e8e8e8" stroke="none" stroke-width="1.5"/>
+  <text x="24" y="30" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">WIREFRAME 03 · Login Page (/login)</text>
+  <text x="1256" y="30" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#6b6b6b">Shared by Admin, Trainer and Member</text>
+  <rect x="0" y="48" width="1280" height="36" rx="0" fill="#e8e8e8" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="18" cy="66" r="5" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <circle cx="34" cy="66" r="5" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <circle cx="50" cy="66" r="5" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <rect x="80" y="55" width="1180" height="22" rx="11" fill="#ffffff" stroke="#6b6b6b" stroke-width="1"/>
+  <text x="96" y="71" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#6b6b6b">http://localhost:3000/login</text>
+  <rect x="0" y="84" width="1280" height="816" rx="0" fill="#f3f3f3" stroke="#cfcfcf" stroke-width="1.5"/>
+  <rect x="0" y="84" width="1280" height="64" rx="0" fill="#ffffff" stroke="#cfcfcf" stroke-width="1.5"/>
+  <rect x="80" y="102" width="30" height="30" rx="6" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="95" y="122" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2b2b2b">∞</text>
+  <text x="120" y="123" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" text-anchor="start" fill="#2b2b2b">INFINITY FITNESS</text>
+  <text x="1200" y="122" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="end" fill="#2b2b2b">← Back to Home</text>
+  <circle cx="1232" cy="116" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="1232" y="121" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
+  <rect x="440" y="194" width="400" height="560" rx="12" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <rect x="614.0" y="224" width="52" height="52" rx="10" fill="#cfcfcf" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="640.0" y="258" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2b2b2b">∞</text>
+  <text x="640.0" y="314" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2b2b2b">Sign in to Infinity Fitness</text>
+  <text x="640.0" y="340" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#6b6b6b">Use the account provided by your gym Admin.</text>
+  <rect x="472" y="364" width="336" height="48" rx="6" fill="#f3f3f3" stroke="#2b2b2b" stroke-width="1" stroke-dasharray="6 4"/>
+  <text x="488" y="384" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#2b2b2b">⚠  Invalid email or password.</text>
+  <text x="488" y="402" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#6b6b6b" font-style="italic">(shown only after a failed login)</text>
+  <circle cx="864" cy="388" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="864" y="393" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+  <text x="472" y="444" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#2b2b2b">Email</text>
+  <rect x="472" y="452" width="336" height="38" rx="4" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="484" y="476" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#6b6b6b">you@example.com</text>
+  <text x="472" y="524" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#2b2b2b">Password</text>
+  <rect x="472" y="532" width="336" height="38" rx="4" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="484" y="556" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#6b6b6b">••••••••</text>
+  <circle cx="864" cy="514" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="864" y="519" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+  <rect x="472" y="606" width="336" height="46" rx="6" fill="#2b2b2b" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="640.0" y="634.0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Login</text>
+  <circle cx="864" cy="629" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="864" y="634" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+  <line x1="472" y1="682" x2="808" y2="682" stroke="#cfcfcf" stroke-width="1"/>
+  <text x="640.0" y="712" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#6b6b6b">No account? Please contact the gym reception.</text>
+  <circle cx="864" cy="708" r="13" fill="#111111" stroke="#111111" stroke-width="1.5"/>
+  <text x="864" y="713" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">4</text>
+</svg>
