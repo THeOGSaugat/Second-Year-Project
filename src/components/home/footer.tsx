@@ -12,12 +12,12 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-brand-navy text-white">
+    <footer className="border-t border-white/10 bg-brand-black text-white">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
         <div className="flex flex-col gap-10 md:flex-row md:justify-between">
           <div className="max-w-sm">
-            <Logo light />
-            <p className="mt-4 text-white/80">
+            <Logo />
+            <p className="mt-4 text-white/70">
               Gym management system for Admins, Trainers and Members.
             </p>
           </div>
@@ -29,7 +29,7 @@ export function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-white/80 transition-colors hover:text-white"
+                    className="text-white/70 transition-colors hover:text-brand-mint"
                   >
                     {link.label}
                   </Link>
@@ -39,7 +39,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-white/15 pt-6 text-center text-sm text-white/80">
+        <div className="mt-10 border-t border-white/10 pt-6 text-center text-sm text-white/70">
           © {currentYear} Infinity Fitness. All rights reserved.
         </div>
       </div>

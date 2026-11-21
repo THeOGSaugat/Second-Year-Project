@@ -62,14 +62,13 @@ const FEATURES = [
 
 export function FeaturesSection() {
   return (
-    // Darker blue at the top (behind the heading text), main Sky Blue towards the bottom
+    // Electric Indigo at the top, fading into Onyx Black at the bottom
     <section
       id="features"
-      className="scroll-mt-16 bg-linear-to-b from-brand-blue-dark to-brand-blue py-20 lg:py-24"
+      className="scroll-mt-16 bg-linear-to-b from-brand-indigo to-brand-black py-20 lg:py-24"
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
-          onBlue
           label="Features"
           title="Features Overview"
           description="Everything the gym needs to manage members, trainers and daily activity."
@@ -77,13 +76,13 @@ export function FeaturesSection() {
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {FEATURES.map((feature) => (
-            <Card key={feature.title} className="bg-white py-6 shadow-lg">
+            <Card key={feature.title} className="bg-brand-black/80 py-6 shadow-lg">
               <CardHeader className="px-6">
-                <div className="mb-4 flex size-12 items-center justify-center rounded-xl bg-brand-red text-white">
+                <div className="mb-4 flex size-12 items-center justify-center rounded-xl bg-brand-mint text-brand-black">
                   <feature.icon className="size-6" />
                 </div>
                 <CardTitle className="text-lg font-bold">{feature.title}</CardTitle>
-                <CardDescription className="text-slate-600">
+                <CardDescription className="text-white/70">
                   {feature.description}
                 </CardDescription>
               </CardHeader>

@@ -19,8 +19,8 @@ const HERO_HIGHLIGHTS = [
 
 export function HeroSection() {
   return (
-    // The gradient starts with the darker blue behind the text so the white text stays readable.
-    <section className="relative overflow-hidden bg-linear-to-br from-brand-blue-dark to-brand-blue text-white">
+    // Background fades from Onyx Black (top-left) to Electric Indigo (bottom-right)
+    <section className="relative overflow-hidden bg-linear-to-br from-brand-black to-brand-indigo text-white">
       {/* Soft decorative circles in the background */}
       <div
         aria-hidden
@@ -36,7 +36,7 @@ export function HeroSection() {
         {/* Left side: text and buttons */}
         <div className="lg:col-span-3">
           <p className="inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1 text-xs font-semibold tracking-wider uppercase">
-            <span className="size-2 rounded-full bg-brand-red" />
+            <span className="size-2 rounded-full bg-brand-mint" />
             Welcome to Infinity Fitness
           </p>
 
@@ -52,10 +52,7 @@ export function HeroSection() {
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Button
-              asChild
-              className="h-12 px-6 text-base font-semibold hover:bg-brand-red-dark"
-            >
+            <Button asChild className="h-12 px-6 text-base font-semibold">
               <Link href="/login">
                 <LogIn className="size-5" />
                 Member Login
@@ -64,7 +61,7 @@ export function HeroSection() {
             <Button
               asChild
               variant="outline"
-              className="h-12 border-white bg-transparent px-6 text-base font-semibold text-white hover:bg-white hover:text-brand-blue-dark"
+              className="h-12 border-brand-mint bg-transparent px-6 text-base font-semibold text-white hover:bg-brand-mint hover:text-brand-black"
             >
               <a href="#contact">
                 Contact Us
@@ -76,9 +73,9 @@ export function HeroSection() {
 
         {/* Right side: decorative card built with icons (no external images) */}
         <div aria-hidden className="mx-auto w-full max-w-md lg:col-span-2">
-          <div className="rounded-3xl border border-white/25 bg-white/10 p-6 shadow-2xl backdrop-blur-sm sm:p-8">
+          <div className="rounded-3xl border border-white/20 bg-white/10 p-6 shadow-2xl backdrop-blur-sm sm:p-8">
             <div className="flex items-center gap-4">
-              <div className="flex size-16 items-center justify-center rounded-2xl bg-brand-red shadow-lg">
+              <div className="flex size-16 items-center justify-center rounded-2xl bg-brand-mint text-brand-black shadow-lg">
                 <Dumbbell className="size-8" />
               </div>
               <div>
@@ -91,9 +88,9 @@ export function HeroSection() {
               {HERO_HIGHLIGHTS.map((item) => (
                 <div
                   key={item.label}
-                  className="rounded-2xl bg-white p-4 text-slate-800 shadow-md"
+                  className="rounded-2xl bg-brand-black/70 p-4 text-white shadow-md ring-1 ring-white/10"
                 >
-                  <item.icon className="size-6 text-brand-blue" />
+                  <item.icon className="size-6 text-brand-mint" />
                   <p className="mt-3 text-sm font-semibold">{item.label}</p>
                 </div>
               ))}
