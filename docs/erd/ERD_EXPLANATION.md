@@ -5,12 +5,12 @@ This folder contains the **Entity Relationship Diagram (ERD)** for the complete 
 | File | What it is |
 |---|---|
 | `infinity-fitness-erd.drawio` | **Editable** diagram — open and edit it in draw.io (diagrams.net) |
-| `infinity-fitness-erd.png` | High-resolution image (3400 × 2520) for the report / slides |
+| `infinity-fitness-erd.png` | High-resolution image (3324 × 2656) for the report / slides |
 | `infinity-fitness-erd.svg` | Scalable image (stays sharp when zoomed) |
 | `ERD_EXPLANATION.md` | This file — explanation of every entity and relationship |
 
-The ERD shows the **whole system design**. In Week 3 only the **User** table (green) is built in the
-database, because Week 3 covers authentication. All other tables (dark grey) are designed now and will be
+The ERD shows the **whole system design** in plain black and white. In Week 3 only the **User** table is
+built in the database, because Week 3 covers authentication. All other tables are designed now and will be
 implemented in later weeks.
 
 ---
@@ -23,14 +23,15 @@ Any of these work:
 - **draw.io Desktop app** (free): File → Open.
 - **VS Code:** install the *Draw.io Integration* extension, then click the `.drawio` file.
 
-Every table is a native draw.io **table shape**, so you can click a cell to change its text, add/remove
-rows, drag tables around, and the relationship lines stay connected.
+Every table is a native draw.io **Entity Relation list** shape: the attributes are stacked top to bottom,
+you can click a row to change its text, add or delete rows, drag tables around, and the relationship
+lines stay connected.
 
-### About the PNG/SVG exports (please read)
+### About the PNG/SVG exports
 
-draw.io Desktop is not installed on this computer, so the PNG/SVG were **not** exported by draw.io itself.
-They were drawn by a small script from **exactly the same table and line definitions** as the `.drawio`
-file, and the `.drawio` file was checked by rendering it with draw.io's official viewer — both show the same layout.
+The SVG was exported with **draw.io's own rendering engine** (the same code the draw.io app uses), after
+applying the same automatic table layout the draw.io editor applies. The PNG is a 2× rendering of that SVG.
+So both images match the `.drawio` file exactly.
 
 If you edit the `.drawio` file, re-export the images from draw.io so they stay in sync:
 **File → Export as → PNG** (leave *Transparent Background* unticked, set zoom to 200%) and **File → Export as → SVG**.
@@ -46,7 +47,7 @@ Save them over the existing files in this folder.
 | **FK** | Foreign Key — stores the PK of another table to link the two |
 | **UK** | Unique — no two rows can have the same value (e.g. email) |
 | **FK, UK** | A foreign key that is also unique → this creates a **one-to-one** link |
-| `*` after an attribute | **Design assumption** — an attribute I suggested; confirm it matches your proposal (see section 6) |
+| Underlined attribute | The primary key of that table |
 | `──┼┼` | **Exactly one** |
 | `──○┼` | **Zero or one** |
 | `──○<` | **Zero or many** |
@@ -187,8 +188,9 @@ User (id, name, email, passwordHash, role, status, createdAt, updatedAt)
 ## 6. Design assumptions to confirm
 
 The **14 entities** and their **relationships** are the agreed design.
-The attributes marked with `*` are my **suggestions**, added so that each table is useful in practice.
-Please compare them with your accepted proposal and remove or rename any that do not match:
+The attributes marked with `*` in section 3 of this document are my **suggestions**, added so that each
+table is useful in practice (the diagram itself shows no markers). Please compare them with your accepted
+proposal and remove or rename any that do not match:
 
 | Entity | Assumed attributes (\*) |
 |---|---|

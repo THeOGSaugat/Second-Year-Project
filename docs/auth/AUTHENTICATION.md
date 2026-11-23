@@ -142,7 +142,7 @@ The Logout button calls `signOut()`, which deletes the session cookie and return
 - Encrypted, `httpOnly`, `SameSite=Lax` session cookie with an 8-hour expiry.
 - Authorization checked **on the server** (proxy + page + server action), never only in the browser.
 - The accounts list loads only safe fields (`select`), so the password hash never reaches the page.
-- Secrets live in `.env`, which is ignored by git. `.env.example` shows the variable names only.
+- Secrets live in `.env`, which is ignored by git.
 
 ---
 
@@ -156,7 +156,14 @@ npx prisma db seed                  # creates the first Admin (already done once
 npm run dev                         # http://localhost:3000
 ```
 
-`.env` must contain the variables listed in `.env.example`.
+`.env` must contain these variables:
+
+| Variable | Used for |
+|---|---|
+| `DATABASE_URL_POOLING` | Neon pooled connection – used by the running app |
+| `DATABASE_URL_UNPOOLING` | Neon direct connection – used by Prisma migrations and the seed |
+| `AUTH_SECRET` | encrypts the session cookie (generate with `openssl rand -base64 32`) |
+| `ADMIN_NAME`, `ADMIN_EMAIL`, `ADMIN_PASSWORD` | the first Admin account, used once by `npx prisma db seed` |
 
 ---
 
